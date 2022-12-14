@@ -21,45 +21,39 @@ replace (
 )
 
 require (
-	github.com/Azure/go-autorest/autorest/adal v0.8.3 // indirect
 	github.com/Masterminds/semver v1.5.0
-	github.com/Masterminds/sprig v2.22.0+incompatible // indirect
 	github.com/aws/aws-app-mesh-controller-for-k8s v1.1.1
-	github.com/aws/aws-sdk-go v1.36.19
-	github.com/docker/distribution v2.7.1+incompatible
-	github.com/docker/docker v1.13.1 // indirect
-	github.com/envoyproxy/go-control-plane v0.9.9-0.20210115003313-31f9241a16e6
-	github.com/fatih/color v1.10.0
+	github.com/aws/aws-sdk-go v1.43.16
+	github.com/docker/distribution v2.8.1+incompatible
+	github.com/envoyproxy/go-control-plane v0.10.2-0.20220325020618-49ff273808a1
+	github.com/fatih/color v1.13.0
 	github.com/gertd/go-pluralize v0.1.1
-	github.com/go-logr/zapr v0.3.0 // indirect
 	github.com/go-openapi/spec v0.19.5 // indirect
-	github.com/go-openapi/swag v0.19.6
+	github.com/go-openapi/swag v0.19.14
 	github.com/gobuffalo/packr v1.30.1
 	github.com/gogo/protobuf v1.3.2
-	github.com/golang/mock v1.4.4
-	github.com/golang/protobuf v1.4.3
+	github.com/golang/mock v1.6.0
+	github.com/golang/protobuf v1.5.2
 	github.com/google/go-github v17.0.0+incompatible
-	github.com/hashicorp/go-multierror v1.1.0
+	github.com/hashicorp/go-multierror v1.1.1
 	github.com/hashicorp/go-version v1.2.1
 	github.com/iancoleman/strcase v0.1.3
 	github.com/linkerd/linkerd2 v0.5.1-0.20200402173539-fee70c064bc0
 	github.com/logrusorgru/aurora/v3 v3.0.0
 	github.com/mitchellh/hashstructure v1.0.0
-	github.com/mitchellh/reflectwalk v1.0.1 // indirect
-	github.com/olekukonko/tablewriter v0.0.2
-	github.com/onsi/ginkgo v1.14.1
-	github.com/onsi/gomega v1.10.5
+	github.com/olekukonko/tablewriter v0.0.5
+	github.com/onsi/ginkgo v1.16.4
+	github.com/onsi/gomega v1.19.0
 	github.com/openservicemesh/osm v0.3.0
-	github.com/pelletier/go-toml v1.3.0 // indirect
 	github.com/pkg/browser v0.0.0-20180916011732-0a3d74bf9ce4
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/client_model v0.2.0
-	github.com/prometheus/common v0.15.0
+	github.com/prometheus/common v0.32.1
 	github.com/pseudomuto/protoc-gen-doc v1.4.1
 	github.com/pseudomuto/protokit v0.2.0
 	github.com/rotisserie/eris v0.4.0
 	github.com/servicemeshinterface/smi-sdk-go v0.4.1
-	github.com/sirupsen/logrus v1.7.0
+	github.com/sirupsen/logrus v1.8.1
 	github.com/solo-io/anyvendor v0.0.3
 	github.com/solo-io/external-apis v0.1.4
 	github.com/solo-io/go-list-licenses v0.1.3
@@ -68,26 +62,26 @@ require (
 	github.com/solo-io/protoc-gen-ext v0.0.15
 	github.com/solo-io/skv2 v0.17.16
 	github.com/solo-io/solo-kit v0.16.0
-	github.com/spf13/afero v1.5.1
-	github.com/spf13/cobra v1.1.3
+	github.com/spf13/afero v1.6.0
+	github.com/spf13/cobra v1.5.0
 	github.com/spf13/pflag v1.0.5
 	github.com/stoewer/go-strcase v1.2.0
 	go.uber.org/atomic v1.7.0
-	go.uber.org/zap v1.16.0
-	golang.org/x/oauth2 v0.0.0-20210201163806-010130855d6c
-	google.golang.org/grpc v1.35.0
-	google.golang.org/protobuf v1.25.0
+	go.uber.org/zap v1.19.0
+	golang.org/x/oauth2 v0.0.0-20211104180415-d3ed0bb246c8
+	google.golang.org/grpc v1.47.0
+	google.golang.org/protobuf v1.28.0
 	gopkg.in/yaml.v2 v2.4.0
-	helm.sh/helm/v3 v3.4.2
+	helm.sh/helm/v3 v3.10.3
 	istio.io/api v0.0.0-20210121191246-a7d07ed40d49
 	istio.io/client-go v0.0.0-20200908160912-f99162621a1a
 	istio.io/istio v0.0.0-20210126155301-c18b82ae7269
 	istio.io/tools v0.0.0-20210315160310-4552b88a5091
-	k8s.io/api v0.20.1
-	k8s.io/apiextensions-apiserver v0.20.1
-	k8s.io/apimachinery v0.20.1
-	k8s.io/client-go v0.20.1
+	k8s.io/api v0.25.2
+	k8s.io/apiextensions-apiserver v0.25.2
+	k8s.io/apimachinery v0.25.2
+	k8s.io/client-go v0.25.2
 	k8s.io/kubernetes v1.13.0
-	k8s.io/utils v0.0.0-20201110183641-67b214c5f920
+	k8s.io/utils v0.0.0-20220728103510-ee6ede2d64ed
 	sigs.k8s.io/controller-runtime v0.7.0
 )
